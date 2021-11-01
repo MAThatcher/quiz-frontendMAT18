@@ -1,4 +1,4 @@
-const questions = [
+const Questions = [
     {
     question:"What is the world’s largest land mammal?",
     answers:[
@@ -31,7 +31,7 @@ const questions = [
     answers:[
         {answerOption:"Scoobert Doo",isCorrect:true},
         {answerOption:"Albert Doo",isCorrect:false},
-        {answerOption:"Schooby Doo",isCorrect:false},
+        {answerOption:"Scooby Doo",isCorrect:false},
         {answerOption:"Scrappy Doo",isCorrect:false}
         ]
     },
@@ -49,7 +49,7 @@ const questions = [
     question:"Who owns all the swans in England?",
     answers:[
         {answerOption:"The Duke of York",isCorrect:false},
-        {answerOption:"The people of England",isCorrect:false},
+        {answerOption:"The People of England",isCorrect:false},
         {answerOption:"Margret Thatcher",isCorrect:false},
         {answerOption:"The Queen",isCorrect:true}
         ]
@@ -275,3 +275,5 @@ const questions = [
         ]
     },
 ]
+
+export default Questions;
